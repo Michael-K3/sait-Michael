@@ -1,0 +1,40 @@
+h1{
+    color: cadetblue;
+    margin: 0;
+    text-align: center;
+}
+h1:hover{
+    color: chartreuse;
+    transition: all 2s ;
+}
+
+p{
+    text-align: center;
+    margin-left: 15%  ;
+    margin-right: 15%;
+}
+
+div{
+    background-color: rgb(73, 212, 73) ;
+    width: 210px;
+    display: inline-block;
+    border: 8px crimson
+     dashed;
+     border-radius: 30px;
+     padding: 15px;
+     margin: 25px;
+     box-shadow: 5px 15px 7px
+}
+body{
+    text-align: center;
+}
+ul{
+    text-align: left;
+}
+div:hover{
+    border: 9px rgb(75, 95, 183) dashed;
+    transition: all 4s;
+    transform: translateY(-25px);
+    box-shadow: 10px 10px 10px;
+    
+}
